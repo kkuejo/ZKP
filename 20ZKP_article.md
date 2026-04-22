@@ -1,5 +1,5 @@
 ---
-title: "Proof Gadgets 総まとめ — SNARK の部品を一覧化する"
+title: "[ゼロ知識証明入門シリーズ20/30]Proof Gadgets 総まとめ — SNARK の部品を一覧化する"
 emoji: "🧩"
 type: "tech"
 topics:

@@ -1,5 +1,5 @@
 ---
-title: "Tornado Cash と Mixer プロトコル — Ethereum 上の匿名送金"
+title: "[ゼロ知識証明入門シリーズ28/30]Tornado Cash と Mixer プロトコル — Ethereum 上の匿名送金"
 emoji: "🌀"
 type: "tech"
 topics:

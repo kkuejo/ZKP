@@ -1,5 +1,5 @@
 ---
-title: "FRI — Low-Degree Testing の核心"
+title: "[ゼロ知識証明入門シリーズ23/30]FRI — Low-Degree Testing の核心"
 emoji: "📉"
 type: "tech"
 topics:

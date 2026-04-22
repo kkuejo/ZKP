@@ -1,5 +1,5 @@
 ---
-title: "Zcash — 完全秘匿トランザクションの仕組み"
+title: "[ゼロ知識証明入門シリーズ27/30]Zcash — 完全秘匿トランザクションの仕組み"
 emoji: "🪙"
 type: "tech"
 topics:

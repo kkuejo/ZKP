@@ -1,5 +1,5 @@
 ---
-title: "回路セキュリティ — Under-Constrained バグとの戦い"
+title: "[ゼロ知識証明入門シリーズ26/30]回路セキュリティ — Under-Constrained バグとの戦い"
 emoji: "🛡️"
 type: "tech"
 topics:

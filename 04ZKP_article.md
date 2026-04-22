@@ -1,5 +1,5 @@
 ---
-title: "ZKPの応用マップ — なぜいま熱いのか"
+title: "[ゼロ知識証明入門シリーズ4/30]ZKPの応用マップ — なぜいま熱いのか"
 emoji: "🗺️"
 type: "tech"
 topics:

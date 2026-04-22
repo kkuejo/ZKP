@@ -1,5 +1,5 @@
 ---
-title: "ZKPの分類 — SNARK vs STARK、そして家系図を描く"
+title: "[ゼロ知識証明入門シリーズ5/30]ZKPの分類 — SNARK vs STARK、そして家系図を描く"
 emoji: "🌳"
 type: "tech"
 topics:

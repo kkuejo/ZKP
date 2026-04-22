@@ -1,5 +1,5 @@
 ---
-title: "QAP — 制約を多項式に昇華する"
+title: "[ゼロ知識証明入門シリーズ12/30]QAP — 制約を多項式に昇華する"
 emoji: "🎼"
 type: "tech"
 topics:

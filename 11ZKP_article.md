@@ -1,5 +1,5 @@
 ---
-title: "R1CS — 制約システムの標準形"
+title: "[ゼロ知識証明入門シリーズ11/30]R1CS — 制約システムの標準形"
 emoji: "🧮"
 type: "tech"
 topics:

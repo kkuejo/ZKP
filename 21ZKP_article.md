@@ -1,5 +1,5 @@
 ---
-title: "STARK 入門 — Transparent & Post-Quantum な証明系"
+title: "[ゼロ知識証明入門シリーズ21/30]STARK 入門 — Transparent & Post-Quantum な証明系"
 emoji: "⭐"
 type: "tech"
 topics:

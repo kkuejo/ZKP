@@ -1,5 +1,5 @@
 ---
-title: "Poseidon ハッシュ — ZK-friendly ハッシュの代表格"
+title: "[ゼロ知識証明入門シリーズ25/30]Poseidon ハッシュ — ZK-friendly ハッシュの代表格"
 emoji: "🔱"
 type: "tech"
 topics:

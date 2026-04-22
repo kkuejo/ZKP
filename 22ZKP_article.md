@@ -1,5 +1,5 @@
 ---
-title: "Reed-Solomon 符号と FFT — STARK の数学的基盤"
+title: "[ゼロ知識証明入門シリーズ22/30]Reed-Solomon 符号と FFT — STARK の数学的基盤"
 emoji: "🎶"
 type: "tech"
 topics:

@@ -1,5 +1,5 @@
 ---
-title: "Lookup Argument と Custom Gate — 回路を劇的に軽くする"
+title: "[ゼロ知識証明入門シリーズ18/30]Lookup Argument と Custom Gate — 回路を劇的に軽くする"
 emoji: "🔍"
 type: "tech"
 topics:

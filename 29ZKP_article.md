@@ -1,5 +1,5 @@
 ---
-title: "zkEVM と zkRollup — L2 スケーリングの中核"
+title: "[ゼロ知識証明入門シリーズ29/30]zkEVM と zkRollup — L2 スケーリングの中核"
 emoji: "📈"
 type: "tech"
 topics:

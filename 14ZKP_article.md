@@ -1,5 +1,5 @@
 ---
-title: "Sumcheck プロトコルと多重線形拡張 (MLE)"
+title: "[ゼロ知識証明入門シリーズ14/30]Sumcheck プロトコルと多重線形拡張 (MLE)"
 emoji: "🎯"
 type: "tech"
 topics:
