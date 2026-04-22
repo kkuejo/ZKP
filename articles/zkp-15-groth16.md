@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ15/30]Groth16 — 3 点で全てを証明する最速 SNARK"
+title: "[ゼロ知識証明入門シリーズ 15/30] Groth16 — 3 点で全てを証明する最速 SNARK"
 emoji: "🏆"
 type: "tech"
 topics:

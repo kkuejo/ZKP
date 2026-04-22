@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ17/30]Fiat-Shamir 変換 — 対話を非対話に変える魔法"
+title: "[ゼロ知識証明入門シリーズ 17/30] Fiat-Shamir 変換 — 対話を非対話に変える魔法"
 emoji: "🎩"
 type: "tech"
 topics:

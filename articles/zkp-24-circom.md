@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ24/30]Circom で書く ZKP 回路 — 実装の第一歩"
+title: "[ゼロ知識証明入門シリーズ 24/30] Circom で書く ZKP 回路 — 実装の第一歩"
 emoji: "🛠️"
 type: "tech"
 topics:

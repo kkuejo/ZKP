@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ19/30]Recursive SNARK と Nova Folding — 無限の計算を1つの証明に"
+title: "[ゼロ知識証明入門シリーズ 19/30] Recursive SNARK と Nova Folding — 無限の計算を1つの証明に"
 emoji: "♾️"
 type: "tech"
 topics:

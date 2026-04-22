@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ30/30]zkBridge と未来の ZKP — 30記事の締めくくり"
+title: "[ゼロ知識証明入門シリーズ 30/30] zkBridge と未来の ZKP — 30記事の締めくくり"
 emoji: "🌉"
 type: "tech"
 topics:

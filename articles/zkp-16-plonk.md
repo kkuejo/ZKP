@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ16/30]PLONK — Universal Setup の革命"
+title: "[ゼロ知識証明入門シリーズ 16/30] PLONK — Universal Setup の革命"
 emoji: "🎺"
 type: "tech"
 topics:
