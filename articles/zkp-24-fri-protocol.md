@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 23/30] FRI — Low-Degree Testing の核心"
+title: "[ゼロ知識証明入門シリーズ 24/33] FRI — Low-Degree Testing の核心"
 emoji: "📉"
 type: "tech"
 topics:
@@ -380,9 +380,9 @@ $$
 6. **Grinding 対策**: PoW チャレンジ生成
 7. 発展: DEEP-FRI, IOPP, FRI 再帰
 
-### 次の記事（Article 24）へ
+### 次の記事（Article 25）へ
 
-次の記事から **第6部: 実装とセキュリティ**。最初は **Circom** で実際に ZKP 回路を書く。HDL 的な記法で R1CS を生成し、snarkjs で証明生成する実践的な記事。
+次の記事は **Circle STARKs** — 通常 FRI が動かない **Mersenne31 素数体** ($p = 2^{31}-1$) を、**円群 $x^2+y^2=1$** という代替構造を使って動かす2024年の画期的特殊化。Starkware の Stwo 実装が M3 MacBook で **62万 Poseidon2/秒** を叩き出す、業界最速級の STARK 変種。
 
 ### 3行サマリ
 

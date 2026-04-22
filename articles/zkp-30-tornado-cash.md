@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 28/30] Tornado Cash と Mixer プロトコル — Ethereum 上の匿名送金"
+title: "[ゼロ知識証明入門シリーズ 30/33] Tornado Cash と Mixer プロトコル — Ethereum 上の匿名送金"
 emoji: "🌀"
 type: "tech"
 topics:
@@ -411,7 +411,7 @@ L1 で 1 ETH pool を使うなら、数十ドルのコストで匿名送金。
 6. **Privacy Pools** は「association set による selective privacy」の提案
 7. 後継プロトコル: Aztec, Railgun, Nocturne, Namada, Penumbra
 
-### 次の記事（Article 29）へ
+### 次の記事（Article 31）へ
 
 次の記事は **zkEVM と zkRollup**。L2 スケーリングの中心技術を詳細に。EVM 命令を回路化する難しさと、Scroll, Polygon zkEVM, zkSync, Linea などの実装の違いを比較する。
 

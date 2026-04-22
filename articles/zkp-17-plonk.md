@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 16/30] PLONK — Universal Setup の革命"
+title: "[ゼロ知識証明入門シリーズ 17/33] PLONK — Universal Setup の革命"
 emoji: "🎺"
 type: "tech"
 topics:
@@ -370,7 +370,7 @@ PLONK の良さ（universal）を保ちつつ、setup を透明化。
 6. 証明サイズ約 9 点、検証約 2 ペアリング
 7. **Plonkish**: custom gate, lookup で拡張、Halo2/Plonky2 で採用
 
-### 次の記事（Article 17）へ
+### 次の記事（Article 18）へ
 
 次の記事は **Fiat-Shamir 変換**。対話型プロトコルを「Verifier の乱数をハッシュ関数に置き換える」ことで非対話化する仕組み。PLONK も Sumcheck もすべてこの変換に依存。
 

@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 24/30] Circom で書く ZKP 回路 — 実装の第一歩"
+title: "[ゼロ知識証明入門シリーズ 26/33] Circom で書く ZKP 回路 — 実装の第一歩"
 emoji: "🛠️"
 type: "tech"
 topics:
@@ -533,7 +533,7 @@ await tester.checkConstraints(witness);
 6. **Solidity Verifier** が自動生成され、~230K gas で L1 検証
 7. Under-constrained バグ・代入と制約の混同がバグの主因
 
-### 次の記事（Article 25）へ
+### 次の記事（Article 27）へ
 
 次の記事は **Poseidon ハッシュ** を詳細に。ZK-friendly ハッシュの代表で、SHA-256 より 100 倍効率的に回路で計算できる。その仕組みと設計哲学を追う。
 

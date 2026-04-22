@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 20/30] Proof Gadgets 総まとめ — SNARK の部品を一覧化する"
+title: "[ゼロ知識証明入門シリーズ 21/33] Proof Gadgets 総まとめ — SNARK の部品を一覧化する"
 emoji: "🧩"
 type: "tech"
 topics:
@@ -340,7 +340,7 @@ ZeroTest $\to$ SumCheck (「すべて 0 なら総和も 0」) だが、ZeroTest 
 8. **Range Check**: Lookup or Bit decomposition
 9. **PLONK, Halo2, STARK** はこれらの組み合わせで構成
 
-### 次の記事（Article 21）へ
+### 次の記事（Article 22）へ
 
 次の記事から **第5部: STARK系**。STARK (Scalable Transparent ARgument of Knowledge) を扱う。SNARK との違いは「**Hash-based で Trusted Setup 不要、量子耐性あり**」。そのための道具として Reed-Solomon 符号と FRI（Fast Reed-Solomon IOP of Proximity）を学ぶ。
 

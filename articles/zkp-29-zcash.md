@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 27/30] Zcash — 完全秘匿トランザクションの仕組み"
+title: "[ゼロ知識証明入門シリーズ 29/33] Zcash — 完全秘匿トランザクションの仕組み"
 emoji: "🪙"
 type: "tech"
 topics:
@@ -376,7 +376,7 @@ Halo2 は Zcash 財団が開発した汎用 SNARK ライブラリ。Zcash Orchar
 7. **View Keys** で選択的開示、規制対応
 8. ZKP 応用の歴史的クラシック
 
-### 次の記事（Article 28）へ
+### 次の記事（Article 30）へ
 
 次の記事は **Tornado Cash** と **Mixer プロトコル** の詳細。Zcash と違って Ethereum L1 上のコントラクトで動き、より汎用的な shielded pool として機能する。
 

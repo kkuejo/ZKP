@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 17/30] Fiat-Shamir 変換 — 対話を非対話に変える魔法"
+title: "[ゼロ知識証明入門シリーズ 18/33] Fiat-Shamir 変換 — 対話を非対話に変える魔法"
 emoji: "🎩"
 type: "tech"
 topics:
@@ -338,7 +338,7 @@ SHA-256, Blake2, SHA-3, Poseidon などが選ばれる。
 6. **実装の pitfall**: transcript の一貫性、domain separation、challenge のバイアス
 7. **Transcript**: Merlin/STROBE が実用的な管理ライブラリ
 
-### 次の記事（Article 18）へ
+### 次の記事（Article 19）へ
 
 次の記事は **Lookup Argument** と **Custom Gate**。Plonkish で「テーブル参照」と「特殊ゲート」を低コストで扱う技法。Poseidon ハッシュや range check が劇的に速くなる、現代 SNARK の必需品。
 

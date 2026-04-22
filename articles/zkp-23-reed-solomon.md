@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 22/30] Reed-Solomon 符号と FFT — STARK の数学的基盤"
+title: "[ゼロ知識証明入門シリーズ 23/33] Reed-Solomon 符号と FFT — STARK の数学的基盤"
 emoji: "🎶"
 type: "tech"
 topics:
@@ -357,7 +357,7 @@ Spartan や HyperPlonk は MLE ベースで FFT 不要。これらは Prover が
 6. **近接性**: 符号との距離、低次数テストの基盤
 7. **実装**: Plonky2, Halo2, STARK が NTT/FFT を多用、GPU 高速化可能
 
-### 次の記事（Article 23）へ
+### 次の記事（Article 24）へ
 
 次の記事は **FRI (Fast Reed-Solomon IOP of Proximity)**。Reed-Solomon 符号の低次数性を $O(\log^2 n)$ で証明する STARK の心臓部。多項式を半分に折る「folding」操作を $\log n$ 回繰り返す仕組み。
 

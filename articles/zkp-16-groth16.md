@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 15/30] Groth16 — 3 点で全てを証明する最速 SNARK"
+title: "[ゼロ知識証明入門シリーズ 16/33] Groth16 — 3 点で全てを証明する最速 SNARK"
 emoji: "🏆"
 type: "tech"
 topics:
@@ -403,7 +403,7 @@ Groth16 は固定回路で最速だが、柔軟性に欠ける。
 7. ZK 化: ランダム $r, s$ でマスキング、Perfect ZK
 8. 弱点: 回路固有 setup、量子耐性なし、malleability
 
-### 次の記事（Article 16）へ
+### 次の記事（Article 17）へ
 
 次の記事は **PLONK**、「Universal Setup + Custom Gate」の革新。1 度のセレモニーで複数回路に使える。現代 SNARK の主流。
 

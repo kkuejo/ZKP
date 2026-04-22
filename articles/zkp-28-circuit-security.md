@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 26/30] 回路セキュリティ — Under-Constrained バグとの戦い"
+title: "[ゼロ知識証明入門シリーズ 28/33] 回路セキュリティ — Under-Constrained バグとの戦い"
 emoji: "🛡️"
 type: "tech"
 topics:
@@ -400,7 +400,7 @@ Under-Constrained バグが本番で exploit されると:
 6. **監査プロセス**: 仕様レビュー → tool → manual → fuzz → report
 7. 監査会社と bug bounty の活用
 
-### 次の記事（Article 27）へ
+### 次の記事（Article 29）へ
 
 次の記事から **第7部: 応用と実例**。最初は **Zcash** を扱う。世界初の大規模プライバシーコインで、Sprout → Sapling → Orchard と 3 世代の SNARK 進化を経てきた。各世代の仕組みを追う。
 

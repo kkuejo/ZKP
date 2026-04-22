@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 18/30] Lookup Argument と Custom Gate — 回路を劇的に軽くする"
+title: "[ゼロ知識証明入門シリーズ 19/33] Lookup Argument と Custom Gate — 回路を劇的に軽くする"
 emoji: "🔍"
 type: "tech"
 topics:
@@ -362,7 +362,7 @@ zkEVM は EVM 命令を 1 つずつ回路化。各 opcode に custom gate + look
 6. Lookup + Custom Gate で SHA-256 が 100 倍軽くなる、zkEVM の基盤
 7. 次数の制約（Halo2 で 5〜9）があるので、バランス設計が必要
 
-### 次の記事（Article 19）へ
+### 次の記事（Article 20）へ
 
 次の記事は **Recursive SNARK と Nova Folding**。SNARK の証明の中で、別の SNARK の検証回路を走らせる「再帰」の仕組みと、最近話題の folding scheme Nova を扱う。無限の計算を固定サイズの証明で示せる。
 

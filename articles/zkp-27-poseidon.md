@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 25/30] Poseidon ハッシュ — ZK-friendly ハッシュの代表格"
+title: "[ゼロ知識証明入門シリーズ 27/33] Poseidon ハッシュ — ZK-friendly ハッシュの代表格"
 emoji: "🔱"
 type: "tech"
 topics:
@@ -429,7 +429,7 @@ Poseidon の改良版。特定の用途で高速。
 7. **実装**: circomlib (Circom), arkworks (Rust), gnark (Go)
 8. **後継**: Poseidon2, Monolith
 
-### 次の記事（Article 26）へ
+### 次の記事（Article 28）へ
 
 次の記事は **回路のセキュリティ**。**Under-Constrained バグ**という ZKP 特有の致命的なバグと、その検出手法（Vanguard, Picus, SemaphoreZK）を扱う。
 

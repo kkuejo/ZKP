@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 9/30] 多項式とSchwartz-Zippel補題 — 健全性を支える確率の壁"
+title: "[ゼロ知識証明入門シリーズ 9/33] 多項式とSchwartz-Zippel補題 — 健全性を支える確率の壁"
 emoji: "📊"
 type: "tech"
 topics:

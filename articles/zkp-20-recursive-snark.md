@@ -1,5 +1,5 @@
 ---
-title: "[ゼロ知識証明入門シリーズ 19/30] Recursive SNARK と Nova Folding — 無限の計算を1つの証明に"
+title: "[ゼロ知識証明入門シリーズ 20/33] Recursive SNARK と Nova Folding — 無限の計算を1つの証明に"
 emoji: "♾️"
 type: "tech"
 topics:
@@ -361,7 +361,7 @@ PCD は分散計算（複数ノードで並列）、IVC は順序のある計算
 6. **SuperNova, HyperNova, ProtoStar** で非一様計算に拡張
 7. **IVC / zkRollup / zkVM / zkBridge** の基盤技術
 
-### 次の記事（Article 20）へ
+### 次の記事（Article 21）へ
 
 次の記事は、ここまで登場した**Proof Gadgets** を総まとめ。ZeroTest, ProdCheck, Permutation Check, Prescribed Permutation Check, Lookup, Range Check など、SNARK の構成要素を一覧化する。
 
