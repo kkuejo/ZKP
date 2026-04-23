@@ -77,14 +77,15 @@ $$
 
 ```mermaid
 sequenceDiagram
-    participant P as Prover P(x, w)
-    participant V as Verifier V(x; r_V)
+    participant P as Prover P
+    participant V as Verifier V
     P->>V: m_1
-    V->>P: m_2 (乱数 r_V に依存)
+    Note over V: 内部乱数 r_V を使う
+    V->>P: m_2
     P->>V: m_3
     V->>P: m_4
-    Note over P,V: ... k ラウンド続く ...
-    V->>V: 最終判定 0 or 1
+    Note over P,V: k ラウンド続く
+    V->>V: 最終判定 0 / 1
 ```
 
 ### 1.3 対話型証明（IP）の定義
