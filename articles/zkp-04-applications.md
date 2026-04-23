@@ -135,7 +135,7 @@ zkRollup が依存する ZKP の性質:
 ### 2.5 次に来る流れ
 
 - **zkEVM の完全互換**: 既存の Solidity コントラクトがそのまま動く
-- **Proof Recursion**: 複数の証明を1つに畳み込む（Article 19）
+- **Proof Recursion**: 複数の証明を1つに畳み込む（Article 20）
 - **共有 Prover Network**: 複数ロールアップが共通の証明インフラを使う
 
 ## 3. プライバシー決済
@@ -173,7 +173,7 @@ flowchart LR
 
 Tornado Cash は**公開されたコントラクトにコインを預け、別アカウントで引き出す**ことで、送信元と送信先のリンクを切るプロトコル。ZKP は「私は以前預けた正当な預金者であり、かつその預金はまだ引き出されていない」ことを示す。
 
-詳細は Article 28 で扱う。
+詳細は Article 30 で扱う。
 
 ### 3.4 Aztec: プライベートなスマートコントラクト
 
@@ -267,7 +267,7 @@ sequenceDiagram
 - **zkBridge (Lightbridge)**: 学術系プロジェクト
 - **Polyhedra Network**: deVirgo プロトコルベース
 
-詳細は Article 30 で扱う。
+詳細は Article 32 で扱う。
 
 ### 5.4 必要な ZKP の性質
 

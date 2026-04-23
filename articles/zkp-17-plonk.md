@@ -16,7 +16,7 @@ published: false
 
 ## 0. 本記事の位置づけ
 
-Article 15 で Groth16 を学んだ。その最大の問題は「**新しい回路ごとに MPC Ceremony が必要**」。これでは研究開発で回路を変えるたびに何十人〜何百人を招集する必要があり、実用で致命的。
+Article 16 で Groth16 を学んだ。その最大の問題は「**新しい回路ごとに MPC Ceremony が必要**」。これでは研究開発で回路を変えるたびに何十人〜何百人を招集する必要があり、実用で致命的。
 
 PLONK の革新:
 
@@ -302,7 +302,7 @@ $$
 
 ### 8.2 Lookup Argument
 
-「$a$ がテーブル $T$ にある」を示す **lookup** は、Plonkish の大きな武器。Article 18 で詳述。
+「$a$ がテーブル $T$ にある」を示す **lookup** は、Plonkish の大きな武器。Article 19 で詳述。
 
 ### 8.3 Higher-degree gates
 
@@ -354,7 +354,7 @@ Halo2 は:
 - Plonkish（PLONK + custom gate）
 - **IPA (Inner Product Argument)** を使用（KZG の代わり）
 - **Transparent Setup**（Trusted Setup 不要）
-- **再帰 SNARK** (Article 19)
+- **再帰 SNARK** (Article 20)
 
 PLONK の良さ（universal）を保ちつつ、setup を透明化。
 

@@ -12,11 +12,11 @@ published: false
 ---
 
 **日付**: 2026年4月22日
-**学習内容**: **Tornado Cash** は Ethereum 上で動く**非対称 mixer**。ユーザーが固定額を deposit し、ZKP を使って**別のアドレスから withdraw** することで送信元と送信先のリンクを切る。シンプルな設計で 2022 年の OFAC 制裁まで広く使われた。本記事では **(1) Mixer の一般設計**、**(2) Tornado Cash のアーキテクチャ**、**(3) Deposit / Withdraw 回路**、**(4) Merkle tree と Nullifier**、**(5) ガバナンスとフロントエンド**、**(6) 制裁と Privacy Pools の登場**、**(7) Mixer の限界と進化** を扱う。Zcash（Article 27）との技術的な違いも確認する。
+**学習内容**: **Tornado Cash** は Ethereum 上で動く**非対称 mixer**。ユーザーが固定額を deposit し、ZKP を使って**別のアドレスから withdraw** することで送信元と送信先のリンクを切る。シンプルな設計で 2022 年の OFAC 制裁まで広く使われた。本記事では **(1) Mixer の一般設計**、**(2) Tornado Cash のアーキテクチャ**、**(3) Deposit / Withdraw 回路**、**(4) Merkle tree と Nullifier**、**(5) ガバナンスとフロントエンド**、**(6) 制裁と Privacy Pools の登場**、**(7) Mixer の限界と進化** を扱う。Zcash（Article 29）との技術的な違いも確認する。
 
 ## 0. 本記事の位置づけ
 
-Article 27 の Zcash は**プライバシー専用ブロックチェーン**。しかし Ethereum ユーザーは既存のチェーン上でプライバシーが欲しい。そこで生まれたのが**Mixer**プロトコル。
+Article 29 の Zcash は**プライバシー専用ブロックチェーン**。しかし Ethereum ユーザーは既存のチェーン上でプライバシーが欲しい。そこで生まれたのが**Mixer**プロトコル。
 
 Tornado Cash は 2019 年にローンチし、ZKP を使った L1 上の最初の成功した mixer。**シンプル、監査可能、$4B 以上の総預託**を集めた。しかし 2022 年 8 月、米国 OFAC により**制裁対象**に。
 

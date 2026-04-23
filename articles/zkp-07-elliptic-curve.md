@@ -430,7 +430,7 @@ $$
 E_{\text{Pallas}}/\mathbb{F}_p, \quad E_{\text{Vesta}}/\mathbb{F}_q
 $$
 
-ここで $|E_{\text{Pallas}}(\mathbb{F}_p)| = q$ かつ $|E_{\text{Vesta}}(\mathbb{F}_q)| = p$。**互いに埋め込み合える**性質があり、**再帰SNARK**（Article 19）に必須。
+ここで $|E_{\text{Pallas}}(\mathbb{F}_p)| = q$ かつ $|E_{\text{Vesta}}(\mathbb{F}_q)| = p$。**互いに埋め込み合える**性質があり、**再帰SNARK**（Article 20）に必須。
 
 ### 6.5 曲線選択のまとめ
 

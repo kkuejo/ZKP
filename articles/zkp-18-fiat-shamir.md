@@ -196,7 +196,7 @@ $\lambda = 80$、攻撃者に $2^{60}$ の計算力があれば、健全性は $
 
 ### 5.5 FRI の場合
 
-FRI (Article 23) は多ラウンドで grinding に弱い傾向。実装では:
+FRI (Article 24) は多ラウンドで grinding に弱い傾向。実装では:
 
 - Challenge space を $2^{\sim 100}$ bit
 - 必要ならさらにハッシュに PoW を加える
