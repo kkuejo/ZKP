@@ -281,13 +281,18 @@ flowchart TD
 
 直感を数式で書くと次のようになる。詳細は次の記事で扱うので、まずは「こういう形になるのか」と眺めるだけで十分。
 
-ある言語 $L$（例: 「解のある数独の集合」「ハミルトンパスを持つグラフの集合」）があり、Proverは「$x \in L$」であることを証明したい。
+ある言語 $L$（例: 「解のある数独の集合」「ハミルトンパスを持つグラフの集合」）があり、Proverは「$x \in L$」であることを証明したい。ここで、プロトコルの正直な Prover / Verifier をそれぞれ $P, V$ と書く。
 
-- **Completeness**: $\forall x \in L$ について、正直なProverは Verifier を受理させられる
+- **Completeness**: $\forall x \in L$ について、正直なProver $P$ は高い確率で Verifier $V$ を受理させられる
+
+$$
+\Pr\left[ \langle P, V \rangle(x) = 1 \right] \geq 1 - \varepsilon_c
+$$
+
 - **Soundness**: $\forall x \notin L$ と任意の（悪意ある）Prover $P^\ast$ について、
 
 $$
-\Pr[V \text{ が受理する}] \leq \varepsilon
+\Pr\left[ \langle P^\ast, V \rangle(x) = 1 \right] \leq \varepsilon
 $$
 
 - **Zero-Knowledge**: 任意のVerifier $V^\ast$ について、多項式時間のシミュレータ $S$ が存在して、
@@ -295,6 +300,10 @@ $$
 $$
 \text{View}_{V^\ast}(P, V^\ast)(x) \approx S(x)
 $$
+
+ここでは **実用でよく使う Computational Zero-Knowledge** の形で書いており、$\approx$ は「多項式時間の観察者には区別できない」を表す。
+
+ここで $\text{View}_{V^\ast}(P, V^\ast)(x)$ は、入力 $x$ に対して正直なProver $P$ と悪意あるVerifier $V^\ast$ が対話したときに、$V^\ast$ が見た**会話ログと自分の内部乱数**をまとめたもの。
 
 つまり「実際のやりとりで $V^\ast$ が見たもの」と「シミュレータが $x$ だけから生成したもの」が計算量的に区別できない。
 
