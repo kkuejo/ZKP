@@ -1,5 +1,5 @@
 ---
-title: "[Ethereum vs Solana 徹底比較 3/8] トランザクション処理 — EIP-1559、EIP-4844、Sealevel並列実行"
+title: "[Ethereum vs Solana 徹底比較 3/8] トランザクション処理 — EIP-1559、EIP-4844、Sealevel"
 emoji: "⚙️"
 type: "tech"
 topics:
