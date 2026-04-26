@@ -1,5 +1,5 @@
 ---
-title: "[MPC入門シリーズ 13/15] Malicious セキュリティ — Cut-and-Choose、SPDZ、Authenticated Garbling"
+title: "[MPC入門シリーズ 13/15] Malicious対策 — Cut-and-Choose、SPDZ、Auth. Garbling"
 emoji: "🛡️"
 type: "tech"
 topics:
