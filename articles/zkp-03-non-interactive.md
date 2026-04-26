@@ -11,7 +11,7 @@ topics:
 published: true
 ---
 
-**日付**: 2026年4月22日
+**日付**: 2026年4月26日
 **学習内容**: Article 2 では対話型 ZKP の3つの性質を厳密に定義した。しかし現実の多くのシステム（ブロックチェーン、認証、画像署名など）では、Prover と Verifier が**対話**する時間がない。Prover は証明を**一発で**送りつけ、Verifier は単独で検証したい。これを実現するのが **非対話型ゼロ知識証明（NIZK: Non-Interactive Zero-Knowledge）** であり、特に現代で最も注目されている **SNARK（Succinct Non-interactive ARgument of Knowledge）** である。本記事では、対話型 → 非対話型の進化を追い、**SNARK という略語の5文字が何を意味するか**を1文字ずつ分解する。さらに **SNARG vs SNARK**、**CRS（Common Reference String）モデル**、**Random Oracle モデル** という、非対話化に不可欠な概念群を整理する。
 
 ## 0. 本記事の位置づけ
