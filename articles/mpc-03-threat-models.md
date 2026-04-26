@@ -1,5 +1,5 @@
 ---
-title: "[MPC入門シリーズ 3/15] 脅威モデルの階層 — Semi-Honest、Malicious、Covert と Honest Majority"
+title: "[MPC入門シリーズ 3/15] 脅威モデルの階層 — Semi-Honest、Malicious、Honest Majority"
 emoji: "⚔️"
 type: "tech"
 topics:
