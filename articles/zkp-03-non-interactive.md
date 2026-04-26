@@ -8,7 +8,7 @@ topics:
   - cryptography
   - zeroknowledge
   - blockchain
-published: false
+published: true
 ---
 
 **日付**: 2026年4月22日
