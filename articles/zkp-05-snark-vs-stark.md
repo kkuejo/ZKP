@@ -8,10 +8,10 @@ topics:
   - stark
   - cryptography
   - pcs
-published: false
+published: true
 ---
 
-**日付**: 2026年4月22日
+**日付**: 2026年5月5日
 **学習内容**: ZKP の世界は **Groth16 / PLONK / Marlin / Bulletproofs / STARK / Halo2 / Nova / Binius** など、プロジェクト名やプロトコル名が乱立していて初学者を圧倒する。しかし実は **ほぼすべての現代 ZKP が「Poly-IOP（多項式インタラクティブオラクル証明） + PCS（多項式コミットメント方式）」** という単純な枠組みで整理できる。本記事では、この **2軸のマトリクス** で ZKP 家系図を描き直す。さらに **SNARK vs STARK** の違いが「基本は PCS の選び方」にすぎないことを示し、なぜそれだけで特性（Setup・PQ 耐性・証明サイズ）が大きく変わるかを理解する。
 
 ## 0. 本記事の位置づけ
