@@ -45,6 +45,8 @@ $$
   - 回路や計算を**多項式の性質**に翻訳する対話型プロトコル
   - Prover は多項式 $f_1, f_2, \ldots$ を「持っている」体で Verifier とチャレンジを交換
   - Verifier はある点での多項式評価を「オラクル」として要求
+  - ここでの「オラクル」は、Verifier から見た**ブラックボックスな問い合わせ先**を意味する
+  - つまり Verifier は「点 $r$ を指定して $f(r)$ を得る」アクセスだけを仮定し、実際には PCS のコミットメントと開示証明でその正しさを検証する
 - **PCS (Polynomial Commitment Scheme)**:
   - その多項式を**短いコミットメント**（数十バイト）にする方式
   - 後で「$f(r) = v$」を**短い証明で納得**させられる
@@ -112,7 +114,7 @@ Poly-IOP はさらに以下のサブタイプに分かれる:
 PLONK の Poly-IOP は次のように働く（詳細は Article 17）:
 
 1. 回路のすべてのワイヤ（信号）を多項式 $w(X)$ で表現
-2. ゲート制約を多項式恒等式 $q_L w_a + q_R w_b + q_M w_a w_b + \ldots = 0$ に翻訳
+2. ゲート制約を多項式恒等式 $q_L w_a + q_R w_b + q_M w_a w_b + q_{a^2} w_a^2 + q_{b^2} w_b^2 + \ldots = 0$ に翻訳
 3. 配線制約（同じ値の配線）を置換引数 (permutation argument) で翻訳
 4. Verifier がランダム点 $r$ を送り、Prover が $w(r)$ を答える
 5. 恒等式が成り立っていれば、Schwartz-Zippel 補題により $w$ が正しい
@@ -215,6 +217,9 @@ KZG は「小・速」だが Trusted Setup 必須。FRI は「太・普通・Tra
 - **K**: Knowledge
 
 つまり SNARK のうち「**N（Non-interactive）を保ちつつ Transparent にしたもの**」が STARK。
+
+補足すると、現在の慣例では STARK は「Transparent で、かつ量子計算に脆い離散対数・ペアリング仮定に依存しない系」を指す。  
+そのため実務上は、**ハッシュベース仮定（FRI 系）= PQ 耐性を狙える構成**であることが、STARK と呼ぶための実質的な要件になっている。
 
 ### 4.2 SNARK / STARK の関係
 
