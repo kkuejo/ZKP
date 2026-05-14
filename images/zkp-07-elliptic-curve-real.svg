@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420" role="img" aria-labelledby="title desc">
+  <title id="title">Elliptic curve y^2 = x^3 - x + 1 over the real numbers</title>
+  <desc id="desc">A smooth elliptic curve over the real numbers, symmetric with respect to the x-axis.</desc>
+
+  <rect width="720" height="420" fill="#ffffff"/>
+
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="80" y1="50" x2="80" y2="370"/>
+    <line x1="160" y1="50" x2="160" y2="370"/>
+    <line x1="240" y1="50" x2="240" y2="370"/>
+    <line x1="320" y1="50" x2="320" y2="370"/>
+    <line x1="400" y1="50" x2="400" y2="370"/>
+    <line x1="480" y1="50" x2="480" y2="370"/>
+    <line x1="560" y1="50" x2="560" y2="370"/>
+    <line x1="640" y1="50" x2="640" y2="370"/>
+
+    <line x1="80" y1="50" x2="660" y2="50"/>
+    <line x1="80" y1="90" x2="660" y2="90"/>
+    <line x1="80" y1="130" x2="660" y2="130"/>
+    <line x1="80" y1="170" x2="660" y2="170"/>
+    <line x1="80" y1="210" x2="660" y2="210"/>
+    <line x1="80" y1="250" x2="660" y2="250"/>
+    <line x1="80" y1="290" x2="660" y2="290"/>
+    <line x1="80" y1="330" x2="660" y2="330"/>
+    <line x1="80" y1="370" x2="660" y2="370"/>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <g stroke="#374151" stroke-width="2" marker-end="url(#arrow)">
+    <line x1="80" y1="210" x2="675" y2="210"/>
+    <line x1="317" y1="370" x2="317" y2="35"/>
+  </g>
+
+  <text x="682" y="216" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#374151">x</text>
+  <text x="309" y="28" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16" fill="#374151">y</text>
+
+  <text x="80" y="28" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18" font-weight="600" fill="#111827">
+    y^2 = x^3 - x + 1
+  </text>
+  <text x="80" y="396" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" fill="#6b7280">
+    Ÿp
+go x økþWf
+þðjÑ‰KjòÚkj‹
+  </text>
+
+  <g fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100,210
+             C100,191 108,179 121,173
+             C149,158 184,148 223,147
+             C273,147 342,164 411,168
+             C454,171 486,153 520,135
+             C578,104 621,74 660,58"/>
+    <path d="M100,210
+             C100,229 108,241 121,247
+             C149,262 184,272 223,273
+             C273,273 342,256 411,252
+             C454,249 486,267 520,285
+             C578,316 621,346 660,362"/>
+  </g>
+
+  <circle cx="100" cy="210" r="4" fill="#2563eb"/>
+</svg>
