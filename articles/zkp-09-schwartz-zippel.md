@@ -312,11 +312,11 @@ Fiat-Shamir 変換（Article 18）で乱数をハッシュ関数に置き換え�
 
 ### 7.1 問題
 
-Schwartz-Zippel を使うには「$f$ が次数 $d$ 以下」を保証する必要がある。しかし Prover が `f` を嘘つきで高次で作ったら？
+Schwartz-Zippel を使うには「$f$ が次数 $d$ 以下」を保証する必要がある。しかし Prover が $f$ を嘘つきで高次で作ったら？
 
 ### 7.2 低次数テスト (Low-Degree Test)
 
-「**与えられた `f` が次数 $d$ 以下の多項式（または $d$ 近傍）に近いこと**」を効率的にテストする手法。代表は:
+「**与えられた $f$ が次数 $d$ 以下の多項式（または $d$ 近傍）に近いこと**」を効率的にテストする手法。代表は:
 
 - **FRI (Fast Reed-Solomon IOP of Proximity)**: ハッシュベース (Article 24)
 - **KZG の仕組み自体**: trusted setup で $g^{\tau^i}$ を $d$ までしか与えない
