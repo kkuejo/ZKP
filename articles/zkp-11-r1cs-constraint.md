@@ -8,7 +8,7 @@ topics:
   - r1cs
   - circuit
   - constraint
-published: false
+published: true
 ---
 
 **日付**: 2026年4月22日
