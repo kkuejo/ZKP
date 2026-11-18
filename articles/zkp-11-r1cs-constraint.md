@@ -11,7 +11,7 @@ topics:
 published: true
 ---
 
-**日付**: 2026年4月22日
+**日付**: 2026年11月17日
 **学習内容**: Article 10 で算術回路を学んだ。本記事ではその回路を **R1CS (Rank-1 Constraint System)** という統一形式に翻訳する。R1CS は「**3つのベクトルの内積について $A \cdot w \odot B \cdot w = C \cdot w$ が成立する**」という形の制約の集合で、Groth16 や多くの SNARK ツール（Circom, Arkworks, libsnark）の**標準入力形式**。本記事では **(1) R1CS の定義**、**(2) 回路 → R1CS 変換の具体手順**、**(3) Witness の定義**、**(4) 行列表現**、**(5) 具体例の完全展開**、**(6) R1CS の限界と Plonkish への進化** を扱う。次の記事の QAP の前提知識。
 
 ## 0. 本記事の位置づけ
